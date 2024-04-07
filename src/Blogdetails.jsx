@@ -10,7 +10,7 @@ const Blogdetails = () => {
         fetch('https://projects-data-uqsa.onrender.com/blogs/' + blogs.id, {
             method: 'DELETE'
         }).then(() => {
-            history.push('/');
+            history.push('/nasemul-blog/');
         })
     }
     return (

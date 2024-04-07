@@ -22,7 +22,7 @@ const Create = () => {
         }).then(() => {
             console.log('New blog added');
             setIsLoading(false);
-            history.push('/');
+            history.push('/nasemul-blog/');
         })
     }
 

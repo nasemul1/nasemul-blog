@@ -25,6 +25,12 @@
   color: #86C232;
 }
 
+.nav-bar #logo{
+  color: #86C232;
+  margin: 0;
+  padding: 0;
+}
+
 .nav-bar div{
   margin-left: auto;
 }
